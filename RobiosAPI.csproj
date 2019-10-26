@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ai.humanrobotics.Communication">
+      <HintPath>References\ai.humanrobotics.Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="ai.humanrobotics.Messaging">
+      <HintPath>References\ai.humanrobotics.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="M2Mqtt.Net">
+      <HintPath>References\M2Mqtt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="RobotAPI">
+      <HintPath>References\RobotAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

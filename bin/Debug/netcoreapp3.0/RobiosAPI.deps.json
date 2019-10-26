@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "RobiosAPI/1.0.0": {
+        "dependencies": {
+          "ai.humanrobotics.Communication": "1.0.0.0",
+          "ai.humanrobotics.Messaging": "1.2.0.0",
+          "M2Mqtt.Net": "4.3.0.0",
+          "RobotAPI": "1.1.0.0"
+        },
+        "runtime": {
+          "RobiosAPI.dll": {}
+        }
+      },
+      "ai.humanrobotics.Communication/1.0.0.0": {
+        "runtime": {
+          "ai.humanrobotics.Communication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ai.humanrobotics.Messaging/1.2.0.0": {
+        "runtime": {
+          "ai.humanrobotics.Messaging.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "M2Mqtt.Net/4.3.0.0": {
+        "runtime": {
+          "M2Mqtt.Net.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "RobotAPI/1.1.0.0": {
+        "runtime": {
+          "RobotAPI.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RobiosAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ai.humanrobotics.Communication/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ai.humanrobotics.Messaging/1.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M2Mqtt.Net/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RobotAPI/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
